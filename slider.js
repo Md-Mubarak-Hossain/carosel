@@ -5,8 +5,8 @@ const images = [
 
 ]
 let img = document.getElementById('carosel');
-// img.setAttribute('height', 600);
-// img.setAttribute('width', 1260);
+img.setAttribute('height', 600);
+img.setAttribute('width', 1360);
 
 let image = 0;
 setInterval(() => {
